@@ -1,0 +1,779 @@
+/*
+ Theme Name:   Wonder-Bar
+ Theme URI:    
+ Description:  Wonder-Bar. A child theme of _tk.
+ Author:       Kevin Mylett @ 99pixels
+ Author URI:   http://www.99pixels.co.uk
+ Template:     _tk
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         bootstrap 3, responsive-layout, accessibility-ready
+ Text Domain:  Wonder-Bar (_tk child)
+*/
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #717171;
+    line-height: 1.8em;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.center-block {
+    float: none;
+}
+
+.vcenter {
+    display: inline-block;
+    vertical-align: middle !important;
+    float: none;
+}
+
+#top-bar {
+    height: 30px;
+    background: #DB198D url(img/background-pattern.png);
+}
+
+/*.contact-head {
+    margin-top: 10px;
+    color: #2DAFE8;
+    font-family: 'Roboto', sans-serif;
+}
+
+.contact-head a {
+    color: #2DAFE8;
+}
+
+.social-head {
+    margin-top: 10px;
+}*/
+
+.logo {
+    width: 175px;
+    margin: 0 auto;
+    position: relative;
+    top: -32px;
+}
+
+.site-title {
+    margin: 0 auto;
+}
+
+p.lead {
+    display: none;
+}
+
+.site-header > .container, .site-navigation > .container {
+    padding-bottom: 0px;
+}
+
+/*Start FlexBox Navigation*/
+
+/*.wrapper {
+  max-width: 970px;
+  margin: 0 auto;
+}*/
+
+.flex-navigation {
+    background-color: #2DAFE8;
+}
+
+/* Flex Container */
+.flex-navigation ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: none;
+}
+
+.flex-navigation ul.open {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex-navigation a {
+  color:white;
+  text-decoration: none;
+  padding:20px 5px;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  transition:all 0.5s;
+}
+
+.flex-navigation li a:hover {
+  background-color: #68cdfa;
+}
+
+.flex-navigation ul.open li.sub-menu ul {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
+
+.flex-navigation ul li {
+  flex: 1 1 100%;
+}
+
+.raq-link {
+    background-color: #DB198D;
+}
+
+.flex-navigation ul li.social {
+  flex: 1 1 25%;
+}
+
+.fa-caret-down {
+  margin-left: 10px;
+}
+
+/*Large Screen Menu*/
+@media (min-width: 992px) {
+    .flex-navigation ul {
+        display: flex;
+    }
+
+    .flex-navigation ul li {
+        position: relative;
+    }
+
+    .flex-navigation a {
+        height: 100%;
+    }
+
+    /*Sub-Menu*/
+    .sub-menu > ul {
+        display: none;
+        position: absolute;
+        width: 100%;
+        background-color: #2DAFE8;
+        z-index: 1;
+    }
+
+    .flex-navigation ul li:hover > ul {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .fa-caret-down {
+        margin-left: 10px;
+    }
+
+    .flex-navigation .toggleNav {
+        display: none;
+    }
+
+    .social {
+        order: 1;
+    }
+}
+
+/*End of FlexBox Navigation*/
+
+/*Jumbotron*/
+
+.jumbotron {
+  padding: 0px;
+  position: relative;
+  background-color: ;
+
+}
+
+.jumbotron img {
+  width: 100%;
+  max-height: 700px;
+}
+
+.centered {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+/* Carousel */
+
+#carousel-homepage {
+    overflow: hidden;
+}
+
+.carousel-inner{
+  width: 150%;
+  margin-left: -10%;
+}
+
+@media (min-width: 768px){
+  .carousel-inner{
+    width: 100%;
+    margin: 0;
+  }
+}
+@media (max-width: 1100px) {
+.carousel-caption .bubble p {
+    font-size: 13px;
+    }
+}
+
+.carousel-caption blockquote {
+    font-style: normal;
+}
+
+.carousel-indicators {
+    z-index: 2;
+}
+
+#eastbourne {
+    font-family: 'Oswald', sans-serif;
+    font-size: 38px;
+    line-height: 2em;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 0px 6px 4px rgba(0, 0, 0, 0.8)
+}
+
+a #eastbourne {
+    color: #fff;
+}
+
+a:hover #eastbourne{
+    background: rgba(0, 0, 0, 0.6);
+    background: rgb(0, 0, 0,)
+}
+
+.entry-title {
+    font-family: 'Pacifico', cursive;
+    color: #DB198D;
+    text-align: center;
+}
+
+h1.page-title {
+    text-align: center;
+    font-family: 'Oswald', cursive;
+    font-size: 50px;
+    letter-spacing: 2px;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 50px;
+    border: 8px solid #fff;
+}
+
+@media (max-width: 768px) {
+    h1.page-title {
+        font-size: 25px;
+        padding: 10px;
+        border: 3px solid #fff;
+    }
+}
+
+span.fn, span.post-date.updated {
+    display: none;
+}
+
+@media (min-width: 768px){
+    .home .main-content-inner {
+        margin-top: 50px;
+        position: relative;
+        /*top: -130px;*/
+    }
+}
+
+/* Homepage */
+
+.intro {
+    font-weight: 300;
+    line-height: 2.3em;
+    font-size: 17px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.services {
+    margin: 40px 0;
+    text-align: center;
+}
+
+.services .circle-background {
+    background-color: #2DAFE8;
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    margin: 0px auto;
+    text-align: center;
+}
+
+.services a .circle-background:hover {
+    text-decoration: none;
+    background-color: #DB198D;
+}
+
+.services .circle-icon {
+    height:45px;
+    width: 45px;
+    display: inline-block;
+    margin: 20px;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+#bar-icon {
+    background: url(img/bar-hire-icon.png);
+}
+
+#drinks-icon {
+    background: url(img/drinks-icon.png);
+}
+
+#staff-icon {
+    background: url(img/staff-icon.png);
+}
+
+#packages-icon {
+    background: url(img/packages-icon.png);
+}
+
+.services h3 a {
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+    color: #DB198D;
+}
+
+.services h3 a:hover {
+    text-decoration: none;
+    color: #2DAFE8;
+}
+
+.services hr {
+    width: 30px;
+    height: 2px;
+    background-color: #2DAFE8;
+}
+
+.services ul {
+    padding-left: 0px;
+}
+
+.services ul li {
+    margin: 10px 0px;
+    list-style: none;
+}
+
+/* Offer */
+
+.circle {
+    background: #f7c03b;
+    border-radius: 50%;
+    width: 100%;
+    padding-bottom:100%;
+    height:0;
+    position: relative;
+    top: -100px;
+    z-index: 10;
+}
+
+.circle:hover {
+    background-color: #2DAFE8;
+}
+
+.circle p {
+    margin: 0px;
+}
+
+.circle-caption {
+    display: block;
+    left: 0;
+    height: 1em;
+    position: absolute;
+    right: 0;
+    top: 20px;
+    margin-top: -.5em;
+    text-align: center;
+    color: #fff;
+}
+
+.event-heading {
+    font-family: 'Pacifico', cursive;
+    font-size: 24px;
+    margin: 20px 0px 10px 0px;
+}
+
+p.event-name {
+    font-family: 'Oswald' , sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 19px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.next-event-mobile {
+    background-color: #f7c03b;
+    color: #fff;
+    margin-top: 8px;
+    text-align: center;
+    font-size: 16px;
+    }
+
+.next-event-mobile:hover {
+    background-color: #2DAFE8;
+    color: #fff;
+}
+
+/* Pagination*/
+
+.pager li > a, .pager li > span {
+    padding: 5px 10px;
+    border: 0px;
+    border-radius: 0px;
+    color: #fff;
+    background-color: #2DAFE8;
+}
+
+.pager li > a:focus, .pager li > a:hover, .pager li > span.active {
+    color: #fff;
+    background-color: #68cdfa;
+}
+
+.pager .previous > a, .pager .next > a {
+    float: none;
+}
+
+/*Quote*/
+
+blockquote {
+    font-family: 'Roboto', cursive;
+    font-size: 15px;
+    line-height: 2.3em;
+    margin: 0.25em 0;
+    padding: 2em 40px;
+    border: none;
+    text-align: center;
+    color: #fff;
+}
+
+blockquote p:before {
+    display: block;
+    padding-left: 10px;
+    content: "\201C";
+    font-size: 80px;
+    font-family: 'Georgia', serif;
+    position: absolute;
+    left: 5px;
+    color: #fff;
+}
+
+blockquote p:after {
+    display: inline-block;
+    content: "\201D";
+    font-size: 80px;
+    font-family: 'Georgia', serif;
+    position: absolute;
+    right: 20px;
+    bottom: 0px;
+    color: #fff;
+}
+
+blockquote footer {
+    font-size: 14px;
+    font-style: normal;
+    color: #2DAFE8;
+}
+
+
+.bubble {
+    position: relative;
+    background: rgba(0, 0, 0, .8);
+    border-radius: 10px;
+    color: #fff;
+}
+
+.bubble p {
+    font-style: italic;
+}
+
+.bubble:after {
+    content: "";
+    position: absolute;
+    bottom: -20px;
+    left: 75px;
+    border-width: 20px 20px 0px;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, .8) transparent;
+    display: block;
+    width: 0px;
+}
+
+#pink-speech {
+    background: #DB198D;
+    margin: 5px;
+    margin-bottom: 50px;
+    box-shadow: -10px 10px 5px -5px #ccc;
+}
+
+#pink-speech footer {
+    color: #3bd3f7;
+}
+
+#pink-speech:after {
+    border-color: #DB198D transparent;
+}
+
+/* Sample Drinks Menu */
+
+.drinks-menu {
+    margin: 40px 0px;
+}
+
+/*Contact-Us*/
+
+#map-container {
+    height: 250px;
+    padding: 0px;
+}
+
+.icon {
+    color: #fff;
+}
+
+.fa-circle {
+    color: #DB198D;
+}
+
+#facebook-circle {
+    color: #3b5998
+}
+
+#twitter-circle {
+    color: #00aced;
+}
+
+.contact-us {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.contact-icon {
+    font-size: 23px;
+    font-family: FontAwesome;
+    margin: 0px 10px;
+}
+
+.fa {
+    line-height: 40px;
+    vertical-align: middle;
+}
+
+.contact-info {
+    line-height: 40px;
+    margin-left: 50px;
+    font-size: 13.5px;
+}
+
+#contact-address {
+    margin-left: 50px;
+}
+
+.social-media {
+    width: 100px;
+    margin: 0 auto;
+}
+
+/*Footer */
+
+.footer-header {
+    background: #DB198D url(img/background-pattern.png);
+    height: 30px;
+}
+
+.site-footer {
+    background-color: #DB198D;
+    color: #fff;
+}
+
+
+.site-footer h4 {
+    font-family: 'Garamond', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    color: #f3a9d6;
+    font-size: 17px;
+    margin: 40px 0px;
+}
+
+h4.payments-heading {
+    margin: 15px;
+}
+
+.contact-icons {
+    width: 345px;
+    margin: 0px auto;
+}
+
+@media (max-width:767px) { 
+    .contact-icons {
+        width: 245px;
+        margin: 0px auto;
+    }
+
+    .contact-icon {
+        margin: 0px;
+    }
+}
+
+.footer-icon-background {
+    color: #fff;
+    font-size: 30px;
+}
+
+.footer-icon {
+    color: #DB198D;
+}
+
+.contact-icon:hover {
+    transform: scale(1.3);
+}
+
+.footer-contact-icons a:hover {
+    text-decoration: none;
+}
+
+.help-links {
+    padding-left: 0px;
+    text-align: center;
+}
+
+.help-links li {
+    list-style-type: none;
+    padding: 5px 0px;
+}
+.help-links li a {
+    color: #fff;
+}
+
+.help-links li a:hover {
+    text-decoration: underline;
+}
+
+.footer-footer {
+    margin-top: 30px;
+}
+.copyright p {
+    text-align: center;
+    font-size: 11px;
+    margin: 0px;
+    color: #f3a9d6;
+}
+
+.copyright a {
+    color: #fff;
+}
+
+.sidebar {
+    padding-top: 75px;
+}
+
+/* Sample drinks menu*/
+
+.menu th {
+    color: #DB198D;
+}
+
+/* *****PACKAGE PRICING TABLE****** */
+
+.panel-cos {
+    border-color: #fa9eb2;
+}
+
+.panel-cos > .panel-heading {
+    background-color: #FA5E80;
+    color: #AD1F3E;
+}
+
+.panel-moj {
+    border-color: #bce068;
+}
+
+.panel-moj > .panel-heading {
+    background-color: #A6E01D;
+    color: #709616;
+}
+
+.panel-dai {
+    border-color: #FEFCD7;
+}
+
+.panel-dai > .panel-heading {
+    background-color: #FEFCD7;
+    color: #C1BD6B;
+}
+
+.packages-heading {
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.inclusive-list {
+    padding-left: 0px;
+}
+
+.inclusive-list li {
+    list-style: none;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.inclusive-list li i {
+    padding-right: 10px;
+    color: #DB198D;
+}
+
+.package-price {
+    font-size: 40px;
+    font-weight: 300;
+    line-height: 1.4;
+    margin-bottom: 10px;
+}
+
+.fa-times {
+    color: #ff0000;
+}
+
+.fa-exclamation-circle {
+    color: #ffa500;
+    margin-right: 5px;
+}
+
+/***** REVIEW PAGE ******/
+
+.review-row {
+    margin: 40px 0px;
+}
+
+.review-rating {
+    text-align: center;
+    color: #DB198D;
+}
+
+.review-comment {
+    text-align: center;
+    font-style: italic;
+    padding: 10px 0px; 
+}
+
+.review-details {
+    text-align: center;
+    font-size: 12px;
+    color: #DB198D;
+}
