@@ -265,7 +265,7 @@ function woo_delivery_tab_content() {
 
     echo '<div class="col-sm-6">';
     echo '<h4>Delivery, Installation & Collection</h4>';
-	echo '<p><strong>Please be aware that we do not add our delivery costs to your initial quote.</strong></p><p>Our delivery costs are unique to each event. We are therefore unable to state an exact delivery cost until we know the location of your event. To give you a rough idea we charge approximately £5 for every 10miles between our location (Sevenoaks) and the location of the event.</p><p>Our delivery includes setup of all equipment prior to your event and removal of the equipment afterwards.</p><p>Delivery prior to your event can take place up to 36 hours prior.</p><p>Our deliveries are ONLY completed using our own trained and uniformed staff, enabling us to ensure your hired goods arrive at the time you have requested and in perfect condition.</p>';
+	echo '<p><strong>Please be aware that we do not add our delivery costs to your initial quote.</strong></p><p>Our delivery costs are unique to each event. We will therefore calculate the cost of delivery once we know the exact location of your event.</p><p>Our delivery includes setup of all equipment prior to your event and removal of the equipment afterwards.</p><p>Delivery prior to your event can take place up to 36 hours prior.</p><p>Our deliveries are ONLY completed using our own trained and uniformed staff, enabling us to ensure your hired goods arrive at the time you have requested and in perfect condition.</p>';
     echo '</div>';
     echo '<div class="delivery-map col-sm-6 col-md-5">';
     echo '<img src="https://www.wonder-bar.co.uk/wp-content/themes/wonder-bar/img/wonder-bar-delivery-map.png" class="img-responsive" />';

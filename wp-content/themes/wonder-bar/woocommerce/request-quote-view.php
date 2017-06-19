@@ -165,7 +165,7 @@ if( count($raq_content) == 0):
 
             <div class="quote-note">
                 <p><strong>Please note:</strong> All prices shown above are a guide only and exclude discounts. Once you have submitted a quote request we will contact you within 24hrs should we need to discuss your requirments further (drinks options, number of bar sections etc..) before sending you a quote.</p>
-                <strong>Delivery:</strong> Our delivery charge is roughly based on £5 per 10 miles between our location (Sevenoaks) to the location of your event.
+                <strong>Delivery:</strong> Price to be confirmed dependent on event location.
             </div>
 	<?php endif ?>
 
