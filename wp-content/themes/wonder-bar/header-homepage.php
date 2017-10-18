@@ -148,8 +148,8 @@
       <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/bar-runner.jpg" alt="Wonder-Bar bar runner" class="img-responsive" />
             <div class="carousel-caption hidden-xs hidden-sm">
                 <blockquote class="bubble">
-                    <p>Wonder-Bar made this element of our wedding day the most stress free of all. When you are organising your own wedding you need people to take responsibility, and that is exactly what they did. The bar was a spectacle in itself with its LED lighting, the staff were incredible, and most importantly they never ran out of a single drink. Would recommend them for absolutely any event you may be organising.</p>
-                <footer>Meg &amp; Gav Foreman</footer>
+                    <p>’Booked Wonder Bar for the corporate summer party at my company and they were nothing short of outstanding. The guys and girls on the bar delivered a fantastic service, they turned up early and kept drinks flowing all night long. They were more than happy to accommodate our token based drinks system before moving on to a more traditional pay as you go system. Wouldn't hesitate to recommend for any corporate events, no matter the scale. Thanks guys!</p>
+                <footer>Timothy Stack – Venue Hire &amp; Events Sales Manager - activeNewham</footer>
                 </blockquote>
             </div>
     </div>
