@@ -148,7 +148,7 @@
       <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/bar-runner.jpg" alt="Wonder-Bar bar runner" class="img-responsive" />
             <div class="carousel-caption hidden-xs hidden-sm">
                 <blockquote class="bubble">
-                    <p>’Booked Wonder Bar for the corporate summer party at my company and they were nothing short of outstanding. The guys and girls on the bar delivered a fantastic service, they turned up early and kept drinks flowing all night long. They were more than happy to accommodate our token based drinks system before moving on to a more traditional pay as you go system. Wouldn't hesitate to recommend for any corporate events, no matter the scale. Thanks guys!</p>
+                    <p>Booked Wonder Bar for the corporate summer party at my company and they were nothing short of outstanding. The guys and girls on the bar delivered a fantastic service, they turned up early and kept drinks flowing all night long. They were more than happy to accommodate our token based drinks system before moving on to a more traditional pay as you go system. Wouldn't hesitate to recommend for any corporate events, no matter the scale. Thanks guys!</p>
                 <footer>Timothy Stack – Venue Hire &amp; Events Sales Manager - activeNewham</footer>
                 </blockquote>
             </div>
