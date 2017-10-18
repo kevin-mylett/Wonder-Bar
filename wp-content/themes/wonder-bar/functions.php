@@ -165,9 +165,21 @@ function custom_price_message( $price ) {
   $new_price = '<span class="custom-price-prefix">' . __(' From ').'</span>' . $price . $vat ;
   return $new_price;
         }
+    if ( is_single('Citroen H Vintage Van Bar') ){
+  $new_price = '<span class="custom-price-prefix">' . __(' From ').'</span>' . $price . $vat ;
+  return $new_price;
+        }
     else {
 	return $price . $vat;
     }
+}
+
+add_filter( 'woocommerce_variation_price_html', 'before_price', 10, 2);
+function before_price( $price, $variation ) {
+    if ( is_single('Citroen H Vintage Van Bar') ){
+  $new_price = '<span class="custom-price-prefix">' . __(' From ').'</span>' . $price . $vat ;
+  return $new_price;
+        }
 }
 
 /**

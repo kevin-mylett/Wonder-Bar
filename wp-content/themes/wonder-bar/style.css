@@ -871,7 +871,7 @@ input[type="search"] {
     padding: 10px 0px;
 }
 
-.woocommerce div.product p.price span.custom-price-prefix,.woocommerce div.product p.price span.vat-note  {
+.woocommerce div.product p.price span.custom-price-prefix,.woocommerce div.product p.price span.vat-note, .custom-price-prefix  {
     font-size: 11px;
     text-transform: uppercase;
 }
