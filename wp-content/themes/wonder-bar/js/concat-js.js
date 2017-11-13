@@ -271,6 +271,8 @@ $(document).ready(function(){
             hideTweetMedia();
 
         });
+
+
         var hideTweetMedia = function() {
 
             $('.twitter-block').find('.twitter-timeline').contents().find('.timeline-Tweet-media').css('display', 'none');
@@ -287,11 +289,14 @@ $(document).ready(function(){
 
             $('.twitter-block').find('.twitter-timeline').contents().find('.timeline-Tweet-action').hide();
 
-            $('.twitter-block').find('.twitter-timeline').contents().find('.timeline-TweetList').bind('DOMSubtreeModified propertychange', function() {
+            /*$('.twitter-block').find('.twitter-timeline').contents().find('.timeline-TweetList').bind('DOMSubtreeModified propertychange', function() {
 
                 hideTweetMedia(this);
 
-            });
+            });*/
 
         };
+
     });
+
+// Test
