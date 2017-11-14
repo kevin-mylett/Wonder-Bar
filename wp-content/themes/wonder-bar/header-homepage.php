@@ -189,6 +189,12 @@
     </div>
 </div>-->
 
+<div class="container">
+    <div class="row">
+        <h2>Clients</h2>
+    </div>
+</div>
+
 <?php endif; ?>
 
 
