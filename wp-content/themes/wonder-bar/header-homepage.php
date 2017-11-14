@@ -192,22 +192,22 @@
 <div class="container">
     <div class="row">
         <div class="col-xs-4 col-md-2">
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/tug.gif" alt="Tug Agency" class="img-responsive" />
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/tug-logo.gif" alt="Tug Agency" class="img-responsive" />
         </div>
         <div class="col-xs-4 col-md-2">
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/tug.gif" alt="Tug Agency" class="img-responsive" />
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/soho-juice-logo.gif" alt="Tug Agency" class="img-responsive" />
         </div>
         <div class="col-xs-4 col-md-2">
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/tug.gif" alt="Tug Agency" class="img-responsive" />
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/riba-venues-logo.gif" alt="Tug Agency" class="img-responsive" />
         </div>
         <div class="col-xs-4 col-md-2">
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/tug.gif" alt="Tug Agency" class="img-responsive" />
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/active-newham-logo.gif" alt="Tug Agency" class="img-responsive" />
         </div>
         <div class="col-xs-4 col-md-2">
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/tug.gif" alt="Tug Agency" class="img-responsive" />
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/gll-logo.gif" alt="Tug Agency" class="img-responsive" />
         </div>
         <div class="col-xs-4 col-md-2">
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/tug.gif" alt="Tug Agency" class="img-responsive" />
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/franklins-brewery-logo.gif" alt="Tug Agency" class="img-responsive" />
         </div>
     </div>
 </div>
