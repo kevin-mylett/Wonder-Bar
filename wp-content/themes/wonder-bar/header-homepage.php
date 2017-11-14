@@ -191,7 +191,24 @@
 
 <div class="container">
     <div class="row">
-        <h2>Clients</h2>
+        <div class="col-xs-4 col-md-2">
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/tug.gif" alt="Tug Agency" class="img-responsive" />
+        </div>
+        <div class="col-xs-4 col-md-2">
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/tug.gif" alt="Tug Agency" class="img-responsive" />
+        </div>
+        <div class="col-xs-4 col-md-2">
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/tug.gif" alt="Tug Agency" class="img-responsive" />
+        </div>
+        <div class="col-xs-4 col-md-2">
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/tug.gif" alt="Tug Agency" class="img-responsive" />
+        </div>
+        <div class="col-xs-4 col-md-2">
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/tug.gif" alt="Tug Agency" class="img-responsive" />
+        </div>
+        <div class="col-xs-4 col-md-2">
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/tug.gif" alt="Tug Agency" class="img-responsive" />
+        </div>
     </div>
 </div>
 
