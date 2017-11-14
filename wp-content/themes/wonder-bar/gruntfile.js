@@ -37,6 +37,24 @@ module.exports = function(grunt) {
             }
         },
 
+
+        browserSync: {
+            dev: {
+                bsFiles: {
+                    src : [
+                        'style.css',
+                        '*.php',
+                        'woocommerce/*.php'
+                    ]
+                },
+                options: {
+                    watchTask: true,
+                    proxy: 'dev.wonder-bar',
+                    browser: ["google chrome"]
+                }
+            }
+        },
+
         watch: {
             js: {
                 files: ['js/wonder-bar.js', 'js/cookie-bar.js'],
@@ -74,9 +92,10 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-contrib-uglify');
     grunt.loadNpmTasks('grunt-contrib-watch');
     grunt.loadNpmTasks('grunt-contrib-imagemin');
+    grunt.loadNpmTasks('grunt-browser-sync');
 
 
     // 4. Where we tell Grunt what to do when we type "grunt" into the terminal.
-    grunt.registerTask('default', ['watch']);
+    grunt.registerTask('default', ['browserSync', 'watch']);
 
 };
