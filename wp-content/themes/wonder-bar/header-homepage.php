@@ -191,22 +191,22 @@
 
 <div class="container">
     <div class="row client-logo-row">
-        <div class="col-xs-4 col-md-2">
+        <div class="col-xs-4 col-sm-2">
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/clients/tug-logo.gif" alt="Tug Marketing Agency logo" title="Tug Marketing Agency" class="img-responsive" />
         </div>
-        <div class="col-xs-4 col-md-2">
+        <div class="col-xs-4 col-sm-2">
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/clients/soho-juice-logo.gif" alt="The Soho Juice Company logo" title="The Soho Juice Company" class="img-responsive" />
         </div>
-        <div class="col-xs-4 col-md-2">
+        <div class="col-xs-4 col-sm-2">
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/clients/riba-venues-logo.gif" alt="Riba Venues logo" title="Riba Venues" class="img-responsive" />
         </div>
-        <div class="col-xs-4 col-md-2">
+        <div class="col-xs-4 col-sm-2">
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/clients/active-newham-logo.gif" alt="Active Newham logo" title="Active Newham" class="img-responsive" />
         </div>
-        <div class="col-xs-4 col-md-2">
+        <div class="col-xs-4 col-sm-2">
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/clients/gll-logo.gif" alt="GLL logo" title="GLL" class="img-responsive" />
         </div>
-        <div class="col-xs-4 col-md-2">
+        <div class="col-xs-4 col-sm-2">
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/clients/franklins-brewery-logo.gif" alt="Franklins Brewing Company logo" title="Frankins Brewing Company" class="img-responsive" />
         </div>
     </div>
