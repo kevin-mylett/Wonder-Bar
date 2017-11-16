@@ -190,24 +190,24 @@
 </div>-->
 
 <div class="container">
-    <div class="row">
+    <div class="row client-logo-row">
         <div class="col-xs-4 col-md-2">
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/tug-logo.gif" alt="Tug Agency" class="img-responsive" />
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/tug-logo.gif" alt="Tug Marketing Agency logo" title="Tug Marketing Agency" class="img-responsive" />
         </div>
         <div class="col-xs-4 col-md-2">
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/soho-juice-logo.gif" alt="Tug Agency" class="img-responsive" />
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/soho-juice-logo.gif" alt="The Soho Juice Company logo" title="The Soho Juice Company" class="img-responsive" />
         </div>
         <div class="col-xs-4 col-md-2">
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/riba-venues-logo.gif" alt="Tug Agency" class="img-responsive" />
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/riba-venues-logo.gif" alt="Riba Venues logo" title="Riba Venues" class="img-responsive" />
         </div>
         <div class="col-xs-4 col-md-2">
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/active-newham-logo.gif" alt="Tug Agency" class="img-responsive" />
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/active-newham-logo.gif" alt="Active Newham logo" title="Active Newham" class="img-responsive" />
         </div>
         <div class="col-xs-4 col-md-2">
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/gll-logo.gif" alt="Tug Agency" class="img-responsive" />
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/gll-logo.gif" alt="GLL logo" title="GLL" class="img-responsive" />
         </div>
         <div class="col-xs-4 col-md-2">
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/franklins-brewery-logo.gif" alt="Tug Agency" class="img-responsive" />
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/franklins-brewery-logo.gif" alt="Franklins Brewing Company logo" title="Frankins Brewing Company" class="img-responsive" />
         </div>
     </div>
 </div>

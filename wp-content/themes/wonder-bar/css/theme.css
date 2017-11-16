@@ -290,6 +290,12 @@ span.fn, span.post-date.updated {
     }
 }
 
+/* Client Logos */
+
+.client-logo-row {
+    margin: 30px 0px 0px 0px;
+}
+
 /* Homepage */
 
 .intro {
