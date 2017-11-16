@@ -282,18 +282,11 @@ span.fn, span.post-date.updated {
     display: none;
 }
 
-@media (min-width: 768px){
-    .home .main-content-inner {
-        margin-top: 50px;
-        position: relative;
-        /*top: -130px;*/
-    }
-}
 
 /* Client Logos */
 
 .client-logo-row {
-    margin: 30px 0px 0px 0px;
+    margin: 30px 0px;
 }
 
 /* Homepage */
@@ -303,7 +296,7 @@ span.fn, span.post-date.updated {
     line-height: 2.3em;
     font-size: 17px;
     text-align: center;
-    margin-bottom: 50px;
+    margin: 50px;
 }
 
 .services {
