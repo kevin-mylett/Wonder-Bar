@@ -139,6 +139,9 @@
       <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/vintage-van-bar-hire.jpg" alt="Citroen H Vintage van bar hire" class="img-responsive" />
     </div>
     <div class="item">
+      <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/camden-bar-banner.jpg" alt="Camden Bar - Our traditional pub" class="img-responsive" />
+    </div>
+    <div class="item">
       <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/guests-at-mobile-bar.jpg" alt="Guests standing at the bar" class="img-responsive" />
     </div>
     <div class="item">
